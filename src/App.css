@@ -1,34 +1,20 @@
-* {
+*{
   box-sizing: border-box;
-}
-
-.logo{
-  width: 13px;
-  margin-right: 2px;
-}
-
-.header1{
-  display: flex;
-  justify-content: center;
-  margin-top: 1%;
-}
-
-.header2{
-  display: flex;
-  justify-content: center;
-
-}
-
-.underline{
-  width: 5%;
-  margin: 8px auto 2px auto;
-  height: 2px;
-  border: 1px solid black;
- 
-}
-
-.header_images{
-  display: flex;
+  margin: 0;
+  padding: 0;
   
 }
 
+ 
+/* 
+.bodyContent_partthree{
+ background: url(./images/imagetwo.png);
+ 
+} */
+
+
+
+
+
+
+ 

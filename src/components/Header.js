@@ -1,32 +1,84 @@
-import React from "react";
+import React from 'react'
 import logo from "../images/header.png";
-import '../App.css';
-import Left_Header from "./leftheader/Left_Header";
-
-function Header() {
-  return (
-    <div>
-      <header className="header1">
-        <img src={logo} alt="" className="logo" />
-        <span>Culinary kitchen</span>
-      </header>
-      <hr></hr>
-      <section>
-        <header className="header2">
-          <span>VARIETIES</span>
-        </header>
-        <div className="underline"></div>
-      </section>
-      <section className="header_images">
-        <Left_Header/>
-        <div className="right_images">
-            <div></div>
-           
-            <div></div>
-        </div>
-      </section>
-    </div>
-  );
+/* .logo{
+  width: 13px;
+  margin-right: 2px;
 }
 
-export default Header;
+.header1{
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.header2{
+  display: flex;
+  justify-content: center;
+
+}
+
+.underline{
+  width: 5%;
+  margin: 8px auto 2px auto;
+  height: 2px;
+  border: 1px solid black;
+ 
+}
+
+.header_images{
+  display: flex;
+  
+}
+
+.uppperright_images{
+  flex-direction: column;
+} */
+
+function Header() {
+  const Logo={
+    width: "13px",
+    marginRight: "2px",
+    
+  }
+  const header1={
+    display:"flex",
+    justifyContent:"center",
+    padding:"5px"
+  }
+  const line={
+    boxShadow: "1px solid grey",
+
+  }
+  const header2={
+    display: "flex",
+  justifyContent: "center",
+  }
+
+  const varities={
+    marginTop:"10px"
+  }
+
+  const underline={
+    width:"2%",
+    margin: "8px auto 2px auto",
+    height: "2px",
+    border: "1px solid black",
+  }
+  return (
+    <>
+      <header className="header1" style={header1}>
+        <img src={logo} alt="" className="Logo" style={Logo} />
+        <span>Culinary kitchen</span>
+      </header>
+      <hr style={line}></hr>
+      <section >
+        <header className="header2" style={header2}>
+          <span className="varities" style={varities}>V A R I E T I E S</span>
+        </header>
+        <div className="underline" style={underline}></div>
+      </section>
+    </>
+  )
+}
+
+export default Header
