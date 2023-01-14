@@ -1,42 +1,44 @@
-import React from "react";
-import Bitmap from "../../images/Bitmap.png";
-import purplestar from "../../images/purplestar.png";
+// import React from 'react'
+// import Bitmapone from "../../../images/Bitmapone.png"
 
-function Left_Header() {
+import React from "react";
+import Bitmapone from "../../../images/Bitmapone.png";
+import whitestar from "../../../images/whitestar.png";
+
+function Upper_leftheader() {
 
   const left_image = {
-    backgroundImage: `url(${Bitmap})`,
+    backgroundImage: `url(${Bitmapone})`,
     border:"1px solid white",
     backgroundSize: "cover",
-    height: "80vh",
+    height:"38vh",
     borderRadius: "2%",
-    color: "white",
+    color: "black",
    
   };
   const header_label = {
-    backgroundColor:"#54396F",
-    opacity:"0.9",
-    height: "200px",
-    border:"1px solid black",
-    marginTop: "292px",
+    backgroundColor:"#DAD2CB",
+    opacity:"0.8",
+    height:"20vh",
+    marginTop: "110px",
     padding:"10px",
     borderRadius: "2%",
   };  
   const explore_button = {
     background: "transparent",
     borderRadius: "25px",
-    color: "white",
-    border: "solid 0.5px white",
-    height: "35px",
-    width: "105px",
+    color: "black",
+    border: "none",
+    height: "25px",
+    width: "95px",
   };
   const label_inner = {
     display: "flex",
     justifyContent: "space-between",
-    marginTop: "35px",
+    marginTop: "10px",
   };
   const label_p = {
-    marginBottom: "35px",
+    marginBottom: "10px",
   };
   
 
@@ -46,16 +48,16 @@ function Left_Header() {
   };
   const rate = {
     marginLeft: "10px",
+    color:"black"
   };
   return (
   
       <div className="left_image" style={left_image}>
 
         <div className="header_label" style={header_label}>
-          <h4>Pizza is a savary dish of Italian origin</h4>
+          <h4>Crispy French Fries</h4>
           <p className="label_p" style={label_p}>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
+            Lorem Ipsum is simply dummy text.
           </p>
           <hr></hr>
           <div className="label_inner" style={label_inner}>
@@ -70,7 +72,7 @@ function Left_Header() {
                 className="label_child_inner_inner"
                 style={label_child_inner_inner}
               >
-                <img src={purplestar} />
+                <img src={whitestar} />
                 <h5 className="rate" style={rate}>
                   Rated
                 </h5>
@@ -84,4 +86,4 @@ function Left_Header() {
   );
 }
 
-export default Left_Header;
+export default Upper_leftheader;

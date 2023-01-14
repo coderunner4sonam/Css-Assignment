@@ -3,7 +3,7 @@ import React from 'react'
 function BodyContent_parttwo() {
     const bodyContent_parttwo={
         height:"45vh",
-        border:"1px solid black",
+      
         display:"flex",
         justifyContent:"space-around",
         marginTop:"18px",

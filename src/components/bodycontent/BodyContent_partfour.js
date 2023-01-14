@@ -69,7 +69,7 @@ function BodyContent_partfour() {
       width:"38%",
       border: "rgb(246,255,254) 1px solid",
       height:"25vh",
-      backgroundImage: `url(${carrot})`,
+      backgroundImage: `url(${apple})`,
       backgroundRepeat:"no-repeat",
       marginTop:"51%",
       marginLeft:"35%",
@@ -79,7 +79,7 @@ function BodyContent_partfour() {
       width:"38%",
       border: "rgb(246,255,254) 1px solid",
       height:"25vh",
-      backgroundImage: `url(${carrot})`,
+      backgroundImage: `url(${mango})`,
       backgroundRepeat:"no-repeat",
       marginTop:"41%",
       marginLeft:"45%",
@@ -89,7 +89,7 @@ function BodyContent_partfour() {
       width:"38%",
       border: "rgb(246,255,254) 1px solid",
       height:"25vh",
-      backgroundImage: `url(${carrot})`,
+      backgroundImage: `url(${leaf})`,
       backgroundRepeat:"no-repeat",
       marginTop:"51%",
       marginLeft:"45%",
@@ -131,16 +131,16 @@ function BodyContent_partfour() {
                 <h3>VEGETABLES</h3>
               </div>
             </div>
-            <p className="label2" style={label2}>Lorem Ipsum is simply dummy text of the  </p>
-            <p className="label3" style={label3}>Lorem Ipsum is simply dummy text </p>
+            <p className="label2" style={label2}>Lorem Ipsum is simply dummy text  </p>
+            <p className="label3" style={label3}>Lorem Ipsum is simply dummy  </p>
 
             <div className='inner_child_one_image2' style={inner_child_one_image2}>
             <div className="label1" style={label1}>
                 <h3>VEGETABLES</h3>
               </div>
             </div>
-            <p className="label2" style={label2}>Lorem Ipsum is simply dummy text of the  </p>
-            <p className="label3" style={label3}>Lorem Ipsum is simply dummy text </p>
+            <p className="label2" style={label2}>Lorem Ipsum is simply dummy text   </p>
+            <p className="label3" style={label3}>Lorem Ipsum is simply dummy  </p>
           </div>
             
           <div className='bodyContent_partfour_inner_child_middle' style={bodyContent_partfour_inner_child_middle}></div>

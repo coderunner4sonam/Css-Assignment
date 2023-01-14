@@ -7,14 +7,19 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 
 function App() {
+  const main_content={
+    padding:"2%"
+  }
   return (
     <>
       <Header />
-      <BodyContent_partone />
-      <BodyContent_parttwo />
-      <BodyContent_partthree/>
-      <BodyContent_partfour/>
-      <Footer/>
+      <div className="main_content" style={main_content}>
+        <BodyContent_partone />
+        <BodyContent_parttwo />
+        <BodyContent_partthree />
+        <BodyContent_partfour />
+      </div>
+      <Footer />
     </>
   );
 }

@@ -1,50 +1,79 @@
 import React from "react";
+import Left_Header from "../leftheader/Left_Header";
+import Lower_Left from "../rightheader/lowerimages/Lower_Left";
+import Lower_Right from "../rightheader/lowerimages/Lower_Right";
+import Upper_leftheader from "../rightheader/upperimages/Upper_leftheader";
+import Upper_Rightheader from "../rightheader/upperimages/Upper_Rightheader";
 
 
 function BodyContent_partone() {
-  const container_style={
-    height:"60vh",
-    border:"1px solid black",
-    display:"flex",
-    justifyContent:"space-around",
-    marginTop:"18px"
-  }
 
-  const container_leftstyle={
-    width:"48%",
-    backgroundColor:"red"
-  }
+    const header_parent={
+      display:"flex",
+      justifyContent:"space-around",
+      height:"80vh"
+    }
+    const header_child={
+      width:"50%"
+    }
+   
+    const upper={
+      display:"flex",
+      justifyContent:"space-around",
+      height:"38vh",
+    
+     
+    }
+    const upper_right_images={
+      height:"36vh",
+      width:"47%",
+     
+    }
 
-  const container_rightstyle={
-    flexWrap:"wrap",
-    width:"48%",
-    backgroundColor:"green",
-    display:"flex",
-    justifyContent:"space-around"
-  }
+    const lower={
+      display:"flex",
+      justifyContent:"space-around",
+      height:"47vh",
+      width:"100%",
+      marginTop:"14px"
+    }
+    const lower_right_images={
+      height:"42vh",
+      width:"47%",
+    
+     
+    }
+    
+    
+  return(
+    <div className="header_parent" style={header_parent}>
 
-  const container_rightstyle_inner={
-    width:"48%",
-    margin:"6px",
-    backgroundColor:"yellow",
-    height:"26vh",
-    border:"1px solid black"
-  }
-
-  return (
- <>
-      <div className="container" style={container_style}>
-        <div className="left_container" style={container_leftstyle}>
+      <div className="header_child" style={header_child}>
+          <Left_Header />
       </div>
-        <div className="right_container" style={container_rightstyle}>
-          <div className="right_container_inner" style={container_rightstyle_inner}></div>
-          <div className="right_container_inner" style={container_rightstyle_inner}></div>
-          <div className="right_container_inner" style={container_rightstyle_inner}></div>
-          <div className="right_container_inner" style={container_rightstyle_inner}></div>
-        </div>
+      <div className="header_child" style={header_child}>
+        
+          <div className="upper" style={upper}>
+            <div className="upper_right_images" style={upper_right_images}>
+                <Upper_leftheader/>
+            </div>
+            <div className="upper_right_images" style={upper_right_images}>
+                <Upper_Rightheader/>
+            </div>
+          </div>
+          <div className="lower" style={lower}>
+            <div className="lower_right_images" style={lower_right_images}>
+              <Lower_Left/>
+            </div>
+            <div className="lower_right_images" style={lower_right_images}>
+              <Lower_Right/>
+            </div>
+          </div>
+  
       </div>
-      </>
-  );
+
+    </div>
+  )
 }
 
 export default BodyContent_partone;

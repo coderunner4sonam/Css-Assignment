@@ -14,15 +14,15 @@ function Footer() {
     }
  
     const footer_image1={
-      width: "65px",
+      width: "45px",
       border: "1px solid grey",
       borderRadius: "50%",
       marginRight:"20px"
     }
 
     const footer_image2={
-      width: "65px",
-      height:"66px",
+      width: "46px",
+      height:"50px",
       border: "1px solid grey",
       borderRadius: "50%",
       marginRight:"20px",
@@ -30,8 +30,8 @@ function Footer() {
     }
 
     const footer_image3={
-      width: "65px",
-      height:"66px",
+      width: "46px",
+      height:"49px",
       border: "1px solid grey",
       borderRadius: "50%",
       marginRight:"20px"
