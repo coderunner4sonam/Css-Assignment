@@ -16,7 +16,7 @@ function Left_Header() {
   const header_label = {
     backgroundColor:"#54396F",
     opacity:"0.9",
-    height: "200px",
+    height: "203px",
     border:"1px solid black",
     marginTop: "292px",
     padding:"10px",
