@@ -26,7 +26,7 @@ function BodyContent_partone() {
     }
     const upper_right_images={
       height:"36vh",
-      width:"47%",
+      width:"48%",
      
     }
 
@@ -34,12 +34,11 @@ function BodyContent_partone() {
       display:"flex",
       justifyContent:"space-around",
       height:"47vh",
-      width:"100%",
       marginTop:"14px"
     }
     const lower_right_images={
       height:"42vh",
-      width:"47%",
+      width:"48%",
     
      
     }
