@@ -1,9 +1,9 @@
-// import React from 'react'
-// import Bitmapone from "../../../images/Bitmapone.png"
-
 import React from "react";
 import Bitmapfour from "../../../images/Bitmapfour.png";
 import whitestar from "../../../images/whitestar.png";
+
+// Right header of Images divide into 4parts upper-I) Upper_leftheader & 2)Upper_Rightheader
+// II) lower - Lower_Left & Lower_Right
 
 function Lower_Right() {
 

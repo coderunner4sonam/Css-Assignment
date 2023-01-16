@@ -2,24 +2,25 @@ import React from "react";
 import Bitmaptwo from "../../../images/Bitmaptwo.png";
 import whitestar from "../../../images/whitestar.png";
 
+// Right header of Images divide into 4parts upper-I) Upper_leftheader & 2)Upper_Rightheader
+// II) lower - Lower_Left & Lower_Right
 function Upper_Rightheader() {
-
   const left_image = {
     backgroundImage: `url(${Bitmaptwo})`,
-    border:"1px solid white",
+    border: "1px solid white",
     backgroundSize: "cover",
-    height:"38vh",
+    height: "38vh",
     borderRadius: "2%",
     color: "black",
   };
   const header_label = {
-    backgroundColor:"#DAD2CB",
-    opacity:"0.8",
-    height:"20vh",
+    backgroundColor: "#DAD2CB",
+    opacity: "0.8",
+    height: "20vh",
     marginTop: "110px",
-    padding:"10px",
+    padding: "10px",
     borderRadius: "2%",
-  };  
+  };
   const explore_button = {
     background: "transparent",
     borderRadius: "25px",
@@ -36,7 +37,6 @@ function Upper_Rightheader() {
   const label_p = {
     marginBottom: "10px",
   };
-  
 
   const label_child_inner_inner = {
     display: "flex",
@@ -44,41 +44,35 @@ function Upper_Rightheader() {
   };
   const rate = {
     marginLeft: "10px",
-    color:"black"
+    color: "black",
   };
   return (
-  
-      <div className="left_image" style={left_image}>
+    <div className="left_image" style={left_image}>
+      <div className="header_label" style={header_label}>
+        <h4>Panner Tikka</h4>
+        <p className="label_p" style={label_p}></p>
+        <hr></hr>
+        <div className="label_inner" style={label_inner}>
+          <div>
+            <button className="explore_button" style={explore_button}>
+              Explore &gt;
+            </button>
+          </div>
 
-        <div className="header_label" style={header_label}>
-          <h4>Panner Tikka</h4>
-          <p className="label_p" style={label_p}>
-          
-          </p>
-          <hr></hr>
-          <div className="label_inner" style={label_inner}>
-            <div >
-              <button className="explore_button" style={explore_button}>
-                Explore &gt;
-              </button>
-            </div>
-
-            <div >
-              <div
-                className="label_child_inner_inner"
-                style={label_child_inner_inner}
-              >
-                <img src={whitestar} />
-                <h5 className="rate" style={rate}>
-                  Rated
-                </h5>
-              </div>
+          <div>
+            <div
+              className="label_child_inner_inner"
+              style={label_child_inner_inner}
+            >
+              <img src={whitestar} />
+              <h5 className="rate" style={rate}>
+                Rated
+              </h5>
             </div>
           </div>
         </div>
-
       </div>
-    
+    </div>
   );
 }
 

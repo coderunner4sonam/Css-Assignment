@@ -2,6 +2,8 @@ import React from "react";
 import Bitmapthree from "../../../images/Bitmapthree.png";
 import blackstar from "../../../images/blackstar.png";
 
+// Right header of Images divide into 4parts upper-I) Upper_leftheader & 2)Upper_Rightheader
+// II) lower - Lower_Left & 
 function Lower_Left() {
 
   const left_image = {

@@ -2,6 +2,8 @@ import React from "react";
 import Bitmap from "../../images/Bitmap.png";
 import purplestar from "../../images/purplestar.png";
 
+
+// It is the left part of BodyContentPartOne contain one image
 function Left_Header() {
 
   const left_image = {
