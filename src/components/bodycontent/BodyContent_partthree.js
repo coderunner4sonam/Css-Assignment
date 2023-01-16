@@ -18,7 +18,7 @@ function BodyContent_partthree() {
       }
     
       const underline={
-        width:"5%",
+        width:"3%",
         margin: "8px auto 2px auto",
         height: "2px",
         border: "1px solid rgb(106,102,161)",
