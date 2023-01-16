@@ -3,10 +3,9 @@ import React from 'react'
 function BodyContent_parttwo() {
     const bodyContent_parttwo={
         height:"45vh",
-      
         display:"flex",
         justifyContent:"space-around",
-        marginTop:"18px",
+   
        
     }
     const bodyContent_parttwo_inner={

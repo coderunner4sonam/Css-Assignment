@@ -13,11 +13,12 @@ function BodyContent_partfour() {
       }
     
       const varities={
-        marginTop:"10px"
+        marginTop:"25px",
+        letterSpacing: "5px",
       }
     
       const underline={
-        width:"2%",
+        width:"5%",
         margin: "8px auto 2px auto",
         height: "2px",
         border: "1px solid rgb(106,102,161)",
@@ -26,21 +27,20 @@ function BodyContent_partfour() {
     const bodyContent_parttwo={
         height:"140vh",
         border:"1px solid rgb(246,255,254)",
-        marginTop:"18px",
         backgroundImage: `url(${FoodBanner})`,
-        backgroundSize:"cover"
+        backgroundSize:"contain"
     }
    
     
     const bodyContent_partfour={
-        height:"120vh",
+        // height:"80vh",
     }
     const bodyContent_partfour_inner_parent={
       display:"flex",
       justifyContent:"space-evenly",
-      
       border: "rgb(246,255,254) 1px solid",
       height:"140vh",
+      alignItem:"center"
     }
     const bodyContent_partfour_inner_child_one={
       
@@ -97,9 +97,10 @@ function BodyContent_partfour() {
 
     const label1={
       marginTop:"85%",
+      marginLeft:"16%"
     }
     const label2={
-      marginLeft:"10%",
+      marginLeft:"16%",
     }
     const label3={
       marginLeft:"15%",
@@ -116,38 +117,38 @@ function BodyContent_partfour() {
   return (
     <>
       
-
       <div className='bodyContent_parttwo' style={bodyContent_parttwo}>
       <section >
         <header className="header2" style={header2}>
-          <span className="varities" style={varities}>F O O D G U I D E</span>
+          <span className="varities" style={varities}>FOOD <span>GUIDE</span></span>
         </header>
         <div className="underline" style={underline}></div>
       </section>
       <div className='bodyContent_partfour_inner_parent' style={bodyContent_partfour_inner_parent}>
           <div className='bodyContent_partfour_inner_child_one' style={bodyContent_partfour_inner_child_one}>
-            <div className='inner_child_one_image1' style={inner_child_one_image1}>
-              <div className="label1" style={label1}>
-                <h3>VEGETABLES</h3>
-              </div>
-            </div>
-            <p className="label2" style={label2}>Lorem Ipsum is simply dummy text  </p>
-            <p className="label3" style={label3}>Lorem Ipsum is simply dummy  </p>
-
+   
+                <div className='inner_child_one_image1' style={inner_child_one_image1}>
+                  <div className="label1" style={label1}>
+                    <h5>VEGETABLES </h5>
+                  </div>
+                </div>  
+                <p className="label2" style={label2}>Lorem Ipsum is simply dummy text  </p>
+               
+        
             <div className='inner_child_one_image2' style={inner_child_one_image2}>
             <div className="label1" style={label1}>
-                <h3>VEGETABLES</h3>
+                <h5>VEGETABLES</h5>
               </div>
             </div>
             <p className="label2" style={label2}>Lorem Ipsum is simply dummy text   </p>
-            <p className="label3" style={label3}>Lorem Ipsum is simply dummy  </p>
+          
           </div>
             
           <div className='bodyContent_partfour_inner_child_middle' style={bodyContent_partfour_inner_child_middle}></div>
           <div className='bodyContent_partfour_inner_child_one' style={bodyContent_partfour_inner_child_one}>
             <div className='inner_child_one_image3' style={inner_child_one_image3}>
               <div className="label1" style={label1}>
-                <h3>VEGETABLES</h3>
+                <h5>VEGETABLES</h5>
               </div>
              
             </div>
@@ -155,11 +156,11 @@ function BodyContent_partfour() {
               
             <div className='inner_child_one_image4' style={inner_child_one_image4}>
               <div className="label1" style={label1}>
-                <h3>VEGETABLES</h3>
+                <h5>VEGETABLES</h5>
               </div>
             </div>
             <p className="label2_image4p" style={label2_image4p}>Lorem Ipsum is simply dummy text   </p>
-              <p className="label2_image4" style={label2_image4}>Lorem Ipsum is simply dummy  </p>
+            
           </div>
       </div>
   

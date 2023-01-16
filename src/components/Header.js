@@ -25,11 +25,12 @@ function Header() {
   }
 
   const varities={
-    marginTop:"10px"
+    marginTop:"10px",
+    letterSpacing: "5px",
   }
 
   const underline={
-    width:"2%",
+    width:"5%",
     margin: "8px auto 0px auto",
     height: "2px",
     border: "1px solid rgb(106,102,161)",
@@ -39,11 +40,12 @@ function Header() {
       <header className="header1" style={header1}>
         <img src={logo} alt="" className="Logo" style={Logo} />
         <span className="logo_heading" style={logo_heading}>Culinary kitchen</span>
+        
       </header>
       <hr style={line}></hr>
       <section >
         <header className="header2" style={header2}>
-          <span className="varities" style={varities}>V A R I E T I E S</span>
+          <span className="varities" style={varities}>VARIETIES </span>
         </header>
         <div className="underline" style={underline}></div>
       </section>

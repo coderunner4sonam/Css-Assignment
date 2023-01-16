@@ -11,12 +11,14 @@ function BodyContent_partthree() {
       display: "flex",
       justifyContent: "center",
       }
+
     const varities={
-        marginTop:"10px"
+        marginTop:"10px",
+        letterSpacing: "5px",
       }
     
       const underline={
-        width:"2%",
+        width:"5%",
         margin: "8px auto 2px auto",
         height: "2px",
         border: "1px solid rgb(106,102,161)",
@@ -80,7 +82,7 @@ function BodyContent_partthree() {
     <>
         <section >
         <header className="header2" style={header2}>
-          <span className="varities" style={varities}>T O P  C H E F S</span>
+          <span className="varities" style={varities}>TOP <span>CHEFS</span></span>
         </header>
         <div className="underline" style={underline}></div>
       </section>
